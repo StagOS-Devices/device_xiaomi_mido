@@ -247,3 +247,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     MultitouchMinDistance=1px \
     TapInterval=1ms \
     TapSlop=1px
+
+# Fling Velocity
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.min.fling_velocity=160 \
+ro.max.fling_velocity=20000
