@@ -53,6 +53,9 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/mido
 TARGET_KERNEL_CLANG_PATH := $(PWD)/vendor/qcom/sdclang-8.0/linux-x86
 TARGET_KERNEL_VERSION := 4.9
 
+# Lockscreen Charging
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
