@@ -429,7 +429,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl">
-<<<<<<< HEAD
         <name>vendor.lineage.power</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
