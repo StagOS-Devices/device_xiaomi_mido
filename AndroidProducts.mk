@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_mido.mk
+    $(LOCAL_DIR)/stag_mido.mk
