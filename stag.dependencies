@@ -1,15 +1,20 @@
-[
+[ 
  {
-   "repository": "android_kernel_xiaomi_mido",
-   "target_path": "kernel/xiaomi/mido"
- },
- {
-    "repository": "ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86",
-    "target_path": "vendor/qcom/sdclang-8.0/linux-x86",
-    "revision": "quartz"
- },
- {
-    "repository": "android_hardware_xiaomi",
+    "remote":      "github",
+    "repository": "LineageOS/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi"
+    "branch":      "lineage-17.1"
+ },
+ {
+    "remote":      "github",
+    "repository":  "StagOS-Devices/kernel_xiaomi_mido",
+    "target_path": "kernel/xiaomi/mido",
+    "branch":      "sx"
+ },
+ {
+    "remote": "github",
+    "repository": "StagOS-Devices/vendor_xiaomi_mido",
+    "target_path": "vendor/xiaomi",
+    "branch": "sx"
  }
 ]
