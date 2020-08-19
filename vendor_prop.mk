@@ -254,11 +254,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     TapInterval=1ms \
     TapSlop=1px
 
-# Fling Velocity
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.min.fling_velocity=160 \
-ro.max.fling_velocity=20000
-
 #framework boost
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.at_library=true \
@@ -269,3 +264,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.iop.enable_prefetch_ofr=false \
     vendor.perf.gestureflingboost.enable=true \
     vendor.perf.workloadclassifier.enable=true
+
