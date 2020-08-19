@@ -24,6 +24,7 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common STAG OS stuff.
 $(call inherit-product, vendor/stag/main.mk)
 TARGET_USES_PREBUILT_CAMERA_SERVICE := false
+BUILD_TYPE := OFFICIAL
 
 # mido bootanimation flag
 TARGET_BOOT_ANIMATION_RES := 1080
